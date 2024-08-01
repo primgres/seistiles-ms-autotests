@@ -1,8 +1,9 @@
 import utils.constants as constants
 
 from os import environ
-from pytest import fixture
+from pytest import fixture, hookimpl
 from reqflow import given
+from time import sleep
 
 
 @fixture(scope="session")
@@ -30,3 +31,16 @@ def get_token():
 def test_microservice():
     response = given(url=constants.BASE_URL).when("GET", constants.HEALTHCHECK_ENDPOINT).then().get_response()
     return response.body
+
+
+def pytest_addoption(parser):
+    parser.addoption("--delay", action="store", default=0, type=int, help="delay between tests in seconds")
+
+
+@fixture(scope="function", autouse=True)
+def delay_between_tests(request):
+    delay = request.config.getoption("--delay")
+    yield
+    if delay > 0:
+        print(f"Delay for {delay} sec")
+    sleep(delay)
