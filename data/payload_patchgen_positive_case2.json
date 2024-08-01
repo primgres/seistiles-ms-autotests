@@ -1,0 +1,31 @@
+{
+  "sessionParameters": {
+    "surveyId": "Gullfaks",
+    "interpreter": "LGC"
+  },
+  "patchesParameters": {
+    "tolerance":  2,
+    "corrWin": 20,
+    "layers":  2,
+    "method": "AMPCORR",
+    "doublets":  "PICK_NONE",
+    "verify": "THREE_x_THREE",
+    "radius":  1,
+    "score": 40
+  },
+  "owTilesParameters": {
+    "pointSet": "AUTO_MS_PATCH",
+    "openWorksUrl": "https://dsdsow.oec-prod-dsif2.openearth.io/dsdataserver/dsl.svc/OpenWorksCommonModel/5000107/OpenWorksCommonModel_OW107-OW107/NORWAY_TILES",
+    "tileDomain": "TIME",
+    "tileUnit": "ms"
+  },
+  "owMeanTracesParameters": {
+    "pointSet": "AUTO_MS_PATCH",
+    "openWorksUrl": "https://dsdsow.oec-prod-dsif2.openearth.io/dsdataserver/dsl.svc/OpenWorksCommonModel/5000107/OpenWorksCommonModel_OW107-OW107/NORWAY_TILES",
+    "tileDomain": "TVD",
+    "tileUnit": "meters"
+  },
+  "volumeParameters": {
+    "metaData": "{  \"internal_grid_x_axis\": \"TRACE\",  \"optimal_direction\": \"xline\",  \"smeta\": {    \"xl_start\": 2500,    \"xl_end\": 2950,    \"xl_inc\": 1,    \"il_start\": 2500,    \"il_end\": 3000,    \"il_inc\": 1,    \"z_start\": 0.0,    \"sample_number\": 751,    \"sample_interval\": 4.0,    \"z_unit\": \"ms\",    \"xy_unit\": \"m\",    \"amp_min\": -228576.0,    \"amp_max\": 187936.0  },  \"bin_grid_azimuth\": 0.800123296922564,  \"bin_grid_dxdi\": 12.498671989247669,  \"bin_grid_dxdj\": 0.17456000001402572,  \"bin_grid_dydi\": -0.1745526259765029,  \"bin_grid_dydj\": 12.49919999949634,  \"bin_grid_incr_i\": 1,  \"bin_grid_incr_j\": 1,  \"bin_grid_ni\": 451,  \"bin_grid_nj\": 501,  \"bin_grid_origin_i\": 2500,  \"bin_grid_origin_j\": 2500,  \"bin_grid_origin_x\": 454635.999999955,  \"bin_grid_origin_y\": 6784654.72000003,  \"bin_grid_width_i\": 12.499890804084632,  \"bin_grid_width_j\": 12.500418865822626}"
+  }
+}
