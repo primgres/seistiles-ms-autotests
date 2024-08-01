@@ -7,7 +7,7 @@ class PointsetFieldModel(BaseModel):
     attribute: str
     numPoints: int
     minVal: float = Field(ge=-50450.34, le=3072481.0)
-    maxVal: float = Field(ge=0.0, le=9.1156998E8)
+    maxVal: float = Field(ge=0.0, le=1.76324595E9)
 
 
 class PointsetModel(BaseModel):
