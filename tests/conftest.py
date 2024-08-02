@@ -1,7 +1,7 @@
 import utils.constants as constants
 
 from os import environ
-from pytest import fixture, hookimpl
+from pytest import fixture
 from reqflow import given
 from time import sleep
 
