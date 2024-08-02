@@ -1,6 +1,6 @@
 import utils.constants as constants
 import utils.utilities as utils
-import data.models.tilegen_data_models as data_models
+import utils.tilegen_data_models as data_models
 
 from pytest import mark, skip
 from reqflow import given
