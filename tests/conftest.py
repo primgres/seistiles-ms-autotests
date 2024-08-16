@@ -12,7 +12,7 @@ def get_token():
     Request to get token
     :return: token from response
     """
-    dsis_user = environ["OEC_USERNAME"]
+    dsis_user = environ["username"]
     dsis_pass = environ["OEC_PASS"]
     token_data = f"username={dsis_user}&password={dsis_pass}&grant_type=password&client_id=dsis-data"
     token_headers = {
