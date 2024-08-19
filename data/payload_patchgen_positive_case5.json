@@ -1,0 +1,30 @@
+{
+  "patchesParameters": {
+    "tolerance": 8.0,
+    "corrWin": 40,
+    "layers": 4,
+    "method": "AMPCORR",
+    "doublets": "PICK_BEST",
+    "verify": "FIVE_x_FIVE",
+    "radius": 2,
+    "score": 30.0
+  },
+  "owTilesParameters": {
+    "pointSet": "AUTO_MS_PATCHGEN",
+    "openWorksUrl": "https://dsdsow.oec-prod-dsif2.openearth.io/dsdataserver/dsl.svc/OpenWorksCommonModel/5000107/OpenWorksCommonModel_OW107-OW107/NORWAY_TILES",
+    "tileDomain": "TIME",
+    "tileUnit": "ms"
+  },
+  "owMeanTracesParameters": {
+    "pointSet": "AUTO_MS_PATCHGEN",
+    "openWorksUrl": "https://dsdsow.oec-prod-dsif2.openearth.io/dsdataserver/dsl.svc/OpenWorksCommonModel/5000107/OpenWorksCommonModel_OW107-OW107/NORWAY_TILES",
+    "tileDomain": "TVD",
+    "tileUnit": "meters"
+  },
+  "volumeParameters": {
+    "metaData": "{ \"internal_grid_x_axis\": \"TRACE\", \"optimal_direction\": \"xline\", \"smeta\": { \"xl_start\": 2500, \"xl_end\": 2950, \"xl_inc\": 1, \"il_start\": 2500, \"il_end\": 3000, \"il_inc\": 1, \"z_start\": 0.000000, \"sample_number\": 751, \"sample_interval\": 4.000000, \"z_unit\": \"ms\", \"xy_unit\": \"meters\", \"amp_min\": -228576.000000, \"amp_max\": 187936.000000 }, \"bin_grid_azimuth\": 0.000000, \"bin_grid_dxdi\": 12.498667, \"bin_grid_dxdj\": 0.174560, \"bin_grid_dydi\": -0.174933, \"bin_grid_dydj\": 12.499200, \"bin_grid_incr_i\": 1, \"bin_grid_incr_j\": 1, \"bin_grid_ni\": 451, \"bin_grid_nj\": 501, \"bin_grid_origin_i\": 2500, \"bin_grid_origin_j\": 2500, \"bin_grid_origin_x\": 454636.000000, \"bin_grid_origin_y\": 6784654.720000, \"bin_grid_width_i\": 12.499891, \"bin_grid_width_j\": 12.500419 }"
+  },
+  "sessionParameters": {
+    "interpreter": "LGC"
+  }
+}
