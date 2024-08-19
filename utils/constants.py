@@ -10,10 +10,14 @@ TOKEN_ENDPOINT = "/auth/realms/DecisionSpace_Integration_Server/protocol/openid-
 TILEGEN_DATA = [
     'data/payload_tilegen_positive_case1.json',
     'data/payload_tilegen_positive_case2.json',
-    'data/payload_tilegen_positive_case3.json'
+    'data/payload_tilegen_positive_case3.json',
+    'data/payload_tilegen_positive_case4.json',
+    'data/payload_tilegen_positive_case5.json'
 ]
 PATCHGEN_DATA = [
     'data/payload_patchgen_positive_case1.json',
     'data/payload_patchgen_positive_case2.json',
-    'data/payload_patchgen_positive_case3.json'
+    'data/payload_patchgen_positive_case3.json',
+    'data/payload_patchgen_positive_case4.json',
+    'data/payload_patchgen_positive_case5.json'
 ]

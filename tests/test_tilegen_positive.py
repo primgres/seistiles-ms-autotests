@@ -1,6 +1,6 @@
 import utils.constants as constants
 import utils.utilities as utils
-import utils.tilegen_data_models as data_models
+import utils.tilegen_data_models as tilegen_models
 
 from pytest import mark, skip
 from reqflow import given
@@ -18,7 +18,7 @@ def test_tiles_generation_positive(test_microservice, get_token, data):
                 .then(timeout=constants.MAX_GEN_TIMEOUT)
                 .status_code(constants.SUCCESSFUL_STATUS_CODE)
                 .assert_response_time(max_time=constants.MAX_GEN_TIMEOUT)
-                .validate_data(data_models.ResponseTileGenModel)
+                .validate_data(tilegen_models.ResponseTileGenModel)
                 .get_response())
 
-    print("TILEGEN Response time: " + str(int(response.response_time)) + " s")
+    print("\nTILEGEN time: " + str(int(response.response_time)) + " sec")

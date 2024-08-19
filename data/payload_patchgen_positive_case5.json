@@ -10,13 +10,13 @@
     "score": 30.0
   },
   "owTilesParameters": {
-    "pointSet": "AUTO_MS_PATCHGEN",
+    "pointSet": "AUTO_MS_PATCH",
     "openWorksUrl": "https://dsdsow.oec-prod-dsif2.openearth.io/dsdataserver/dsl.svc/OpenWorksCommonModel/5000107/OpenWorksCommonModel_OW107-OW107/NORWAY_TILES",
     "tileDomain": "TIME",
     "tileUnit": "ms"
   },
   "owMeanTracesParameters": {
-    "pointSet": "AUTO_MS_PATCHGEN",
+    "pointSet": "AUTO_MS_PATCH",
     "openWorksUrl": "https://dsdsow.oec-prod-dsif2.openearth.io/dsdataserver/dsl.svc/OpenWorksCommonModel/5000107/OpenWorksCommonModel_OW107-OW107/NORWAY_TILES",
     "tileDomain": "TVD",
     "tileUnit": "meters"

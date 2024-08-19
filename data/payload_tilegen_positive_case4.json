@@ -27,7 +27,7 @@
     "sampleRate": 4.0
   },
   "owTilesParameters": {
-    "pointSet": "AUTO_MS_TILES_4",
+    "pointSet": "AUTO_MS_TILE_4",
     "remark": "Autotest",
     "openWorksUrl": "https://dsdsow.oec-prod-dsif2.openearth.io/dsdataserver/dsl.svc/OpenWorksCommonModel/5000107/OpenWorksCommonModel_OW107-OW107/NORWAY_TILES",
     "openWorksNativeUrl": "https://dsdsow.oec-prod-dsif2.openearth.io/dsdataserver/dsl.svc/OW5000/5000107/OpenWorks_OW107DB_SingleSource-OW107DB/NORWAY_TILES",

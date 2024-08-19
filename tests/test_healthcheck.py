@@ -15,4 +15,4 @@ def test_microservice_is_available():
                 .assert_body_text(expected_response_body)
                 .get_response())
 
-    print("HEALTHCHECK Response time: " + str(int(response.response_time * 1000)) + " ms")
+    print("\nHEALTHCHECK time: " + str(int(response.response_time * 1000)) + " ms")

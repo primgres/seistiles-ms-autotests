@@ -8,5 +8,5 @@ class Utility:
     def get_payload(path):
         with (open(path, "r")) as json_file:
             json_data = load(json_file)
-            json_data["owTilesParameters"]["pointSet"] = "AUTO_MS_TILES_" + str(int(datetime.timestamp(datetime.now())))
+            json_data["owTilesParameters"]["pointSet"] = "AUTO_MS_TILE_" + str(int(datetime.timestamp(datetime.now())))
             return json_data
