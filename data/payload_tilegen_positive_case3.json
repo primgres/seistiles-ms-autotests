@@ -1,8 +1,4 @@
 {
-  "sessionParameters": {
-    "surveyId": "Gullfaks",
-    "interpreter": "LGC"
-  },
   "seisTilesAOI": {
     "lineMin": 2800,
     "lineMax": 2830,
@@ -10,8 +6,8 @@
     "xlineMin": 2800,
     "xlineMax": 2830,
     "xlineInc": 1,
-    "minZ": 500.0,
-    "maxZ": 1500.0,
+    "minZ": 0.0,
+    "maxZ": 1000.0,
     "zInc": 4.0
   },
   "seisTilesComputeParameters": {
@@ -19,24 +15,31 @@
     "tileXlineStep": 10,
     "tileLineSize": 11,
     "tileXlineSize": 11,
+    "meanTraceLen": 32,
     "maxDipLine": 4.0,
     "maxDipXline": 4.0,
-    "signoiseCutoff": 1.0,
-    "meanTraceLen": 40
+    "signoiseCutoff": 1.0
   },
   "readerParameters": {
     "folder": "/QA/data02/LSSE2E/seis01/Gullfaks",
-    "name": "S_NORWAY_TILES_206",
-    "dataNull": 10000000000000000000000000000000000000.0,
+    "name": "S_NORWAY_TILES_209",
+    "dataNull": 1.0E37,
     "sampleRate": 4.0
   },
   "owTilesParameters": {
     "pointSet": "AUTO_MS_TILES_3",
+    "remark": "Autotest",
     "openWorksUrl": "https://dsdsow.oec-prod-dsif2.openearth.io/dsdataserver/dsl.svc/OpenWorksCommonModel/5000107/OpenWorksCommonModel_OW107-OW107/NORWAY_TILES",
+    "openWorksNativeUrl": "https://dsdsow.oec-prod-dsif2.openearth.io/dsdataserver/dsl.svc/OW5000/5000107/OpenWorks_OW107DB_SingleSource-OW107DB/NORWAY_TILES",
     "tileDomain": "TIME",
     "tileUnit": "ms"
   },
   "volumeParameters": {
-    "metaData": "{  \"internal_grid_x_axis\": \"TRACE\",  \"optimal_direction\": \"xline\",  \"smeta\": {    \"xl_start\": 2500,    \"xl_end\": 2950,    \"xl_inc\": 1,    \"il_start\": 2500,    \"il_end\": 3000,    \"il_inc\": 1,    \"z_start\": 0.0,    \"sample_number\": 751,    \"sample_interval\": 4.0,    \"z_unit\": \"ms\",    \"xy_unit\": \"m\",    \"amp_min\": -228576.0,    \"amp_max\": 187936.0  },  \"bin_grid_azimuth\": 0.800123296922564,  \"bin_grid_dxdi\": 12.498671989247669,  \"bin_grid_dxdj\": 0.17456000001402572,  \"bin_grid_dydi\": -0.1745526259765029,  \"bin_grid_dydj\": 12.49919999949634,  \"bin_grid_incr_i\": 1,  \"bin_grid_incr_j\": 1,  \"bin_grid_ni\": 451,  \"bin_grid_nj\": 501,  \"bin_grid_origin_i\": 2500,  \"bin_grid_origin_j\": 2500,  \"bin_grid_origin_x\": 454635.999999955,  \"bin_grid_origin_y\": 6784654.72000003,  \"bin_grid_width_i\": 12.499890804084632,  \"bin_grid_width_j\": 12.500418865822626}"
+    "metaData": "{ \"internal_grid_x_axis\": \"TRACE\", \"optimal_direction\": \"xline\", \"smeta\": { \"xl_start\": 2500, \"xl_end\": 2950, \"xl_inc\": 1, \"il_start\": 2500, \"il_end\": 3000, \"il_inc\": 1, \"z_start\": 0.000000, \"sample_number\": 751, \"sample_interval\": 4.000000, \"z_unit\": \"ms\", \"xy_unit\": \"meters\", \"amp_min\": -228576.000000, \"amp_max\": 187936.000000 }, \"bin_grid_azimuth\": 0.000000, \"bin_grid_dxdi\": 12.498667, \"bin_grid_dxdj\": 0.174560, \"bin_grid_dydi\": -0.174933, \"bin_grid_dydj\": 12.499200, \"bin_grid_incr_i\": 1, \"bin_grid_incr_j\": 1, \"bin_grid_ni\": 451, \"bin_grid_nj\": 501, \"bin_grid_origin_i\": 2500, \"bin_grid_origin_j\": 2500, \"bin_grid_origin_x\": 454636.000000, \"bin_grid_origin_y\": 6784654.720000, \"bin_grid_width_i\": 12.499891, \"bin_grid_width_j\": 12.500419 }",
+    "seismicVolumeMoniker": "OpenWorks/LSSE2E.NORWAY_TILES.ALL_DATA.SeismicDataSet.seismicDataSetId\u003d209;"
+  },
+  "sessionParameters": {
+    "surveyId": "Gullfaks",
+    "interpreter": "LGC"
   }
 }
